@@ -7,12 +7,12 @@ function play(){
     setTimeout(() => { console.log('World!'); }, 2000);
         var random=Math.random()*6+1;
     random=Math.floor(random);
-    var source="./images/dice"+random+".png";
+    var source="./dice"+random+".png";
     document.querySelectorAll("img")[0].setAttribute("src",source);
     
     var random2=Math.random()*6+1;
     random2=Math.floor(random2);
-    var source2="./images/dice"+random2+".png";
+    var source2="./dice"+random2+".png";
     document.querySelectorAll("img")[1].setAttribute("src",source2);
 
  
@@ -47,4 +47,4 @@ function Draw(){
     document.querySelector("h1").textContent="Draw...!!🤝";
     
 }
-var sound=new Audio("audio/dice-142528.mp3");
+var sound=new Audio("dice-142528.mp3");
